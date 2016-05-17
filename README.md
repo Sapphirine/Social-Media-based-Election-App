@@ -9,7 +9,7 @@ We also trained a deep-learning model using LSTM for sentiment analysis based on
 
 ###How to run:
 
-You need to have an AWS account in order to run the Meteor since we are using AWS services such as AWS ElasticSearch and etc. You need to store your AWS credentials under the default path `~/.aws/crendentials`. You also need to create relevant ElasticSearch indices under your ElasticSearch domain created on AWS. You also need to obtain API keys from IBM Alchemy and Twit.You also need to install Node.js and Meteor.js.
+You need to have an AWS account in order to run the Meteor since we are using AWS services such as AWS ElasticSearch and etc. You need to store your AWS credentials under the default path `~/.aws/crendentials`. You also need to create relevant ElasticSearch indices under your ElasticSearch domain created on AWS. Beside, you would need obtain API keys from IBM Alchemy and Twit as well as install Node.js and Meteor.js.
 
 To run the web application, just go to the folder "Web" and start the meteor application
 
