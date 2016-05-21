@@ -25,7 +25,7 @@ Meteor.startup(() => {
   Session.set("topic_id", 'politics');
 
 
-  GoogleMaps.load({key: 'AIzaSyAivc8eHjOOu0cuqs_pozHkmyxx9ysSdA0'});
+  GoogleMaps.load({key: ''});
 
   //Add selectize event listener to the dropdown in the tweetmap
   $('#selectcandidate').selectize({
